@@ -12,7 +12,7 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.co);
 
-if [ $MYIP = $MYIP]; then
+if [ $MYIP = $MYIP ]; then
 echo -e "${green}Akses Di Izinkan...${NC}"
 else
 echo -e "${merah}VPS tidak diijinkan${NC}";

@@ -5,7 +5,7 @@ NC='\e[0m'
 MYIP=$(curl -s ipinfo.io/ip);
 echo "Checking VPS"
 
-if [ $MYIP = $MYIP]; then
+if [ $MYIP = $MYIP ]; then
 echo -e "${green}Akses Di Izinkan...${NC}"
 else
 echo -e "${red}VPS tidak diijinkan${NC}";

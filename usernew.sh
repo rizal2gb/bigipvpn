@@ -6,7 +6,7 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 now=`date +"%Y-%m-%d"`
 echo "Checking VPS"
 
-if [ $MYIP = $MYIP]; then
+if [ $MYIP = $MYIP ]; then
 echo -e "${green}Akses Di Izinkan...${NC}"
 else
 echo -e "${red}VPS tidak diijinkan${NC}";

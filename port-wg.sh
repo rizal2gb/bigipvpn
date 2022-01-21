@@ -6,7 +6,7 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 NIC=$(ip -o $ANU -4 route show to default | awk '{print $5}');
 echo "Checking VPS"
 
-if [ $MYIP = $MYIP]; then
+if [ $MYIP = $MYIP ]; then
 echo -e "${green}Akses Di Izinkan...${NC}"
 else
 echo -e "${merah}VPS tidak diijinkan${NC}";
