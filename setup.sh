@@ -20,25 +20,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssh"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-bigipvpnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/sstp"
+bigipvpnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-bigipvpnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssr"
+bigipvpnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-bigipvpnnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/shadowsocks"
+bigipvpnnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-bigipvpnnnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/wireguard"
+bigipvpnnnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-bigipvpnnnnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/xray"
+bigipvpnnnnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-bigipvpnnnnnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/ipsec"
+bigipvpnnnnnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-bigipvpnnnnnnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/backup"
+bigipvpnnnnnnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/backup"
 # Link Hosting Kalian Untuk Websocket
-bigipvpnnnnnnnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/websocket"
+bigipvpnnnnnnnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-bigipvpnnnnnnnnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/ohp"
+bigipvpnnnnnnnnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
