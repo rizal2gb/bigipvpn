@@ -31,7 +31,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/wireguard"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then

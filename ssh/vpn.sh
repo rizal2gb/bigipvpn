@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/kibomandar/izin/main/joy/joy | grep $MYIP )
+IZIN="skipped"
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
@@ -28,7 +28,7 @@ fi
 # By AnonPhreaker
 # ==================================================
 # Link Hosting Kalian
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssh"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssh"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive

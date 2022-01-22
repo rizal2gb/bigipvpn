@@ -27,7 +27,7 @@ echo -e
 exit 0
 fi
 # Link Hosting Kalian
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/websocket"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/websocket"
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/websocket https://${bigipvpn}/websocket.py

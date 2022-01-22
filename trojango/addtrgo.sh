@@ -27,7 +27,7 @@ exit 0
 fi
 clear
 uuid=$(cat /etc/trojan-go/uuid.txt)
-source /var/lib/joyvpn/ipvps.conf
+source /var/lib/bigipvpn/ipvps.conf
 if [[ "$IP" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else

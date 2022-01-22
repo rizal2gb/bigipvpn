@@ -31,7 +31,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/ipsec"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/ipsec"
 
 VPN_IPSEC_PSK='myvpn'
 NET_IFACE=$(ip -o $NET_IFACE -4 route show to default | awk '{print $5}');
@@ -311,6 +311,6 @@ wget -O /usr/bin/addpptp https://${bigipvpn}/addpptp.sh && chmod +x /usr/bin/add
 wget -O /usr/bin/delpptp https://${bigipvpn}/delpptp.sh && chmod +x /usr/bin/delpptp
 wget -O /usr/bin/renewpptp https://${bigipvpn}/renewpptp.sh && chmod +x /usr/bin/renewpptp
 wget -O /usr/bin/renewl2tp https://${bigipvpn}/renewl2tp.sh && chmod +x /usr/bin/renewl2tp
-touch /var/lib/joyvpn/data-user-l2tp
-touch /var/lib/joyvpn/data-user-pptp
+touch /var/lib/bigipvpn/data-user-l2tp
+touch /var/lib/bigipvpn/data-user-pptp
 rm -f /root/ipsec.sh

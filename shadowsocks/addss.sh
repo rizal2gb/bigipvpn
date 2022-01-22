@@ -39,7 +39,7 @@ http=3443
 else
 http="$((lastport2+1))"
 fi
-source /var/lib/joyvpn/ipvps.conf
+source /var/lib/bigipvpn/ipvps.conf
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else

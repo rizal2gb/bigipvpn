@@ -26,7 +26,7 @@ echo -e
 exit 0
 fi
 clear
-source /var/lib/joyvpn/ipvps.conf
+source /var/lib/bigipvpn/ipvps.conf
 if [[ "$IP" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else

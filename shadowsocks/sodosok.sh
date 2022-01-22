@@ -27,7 +27,7 @@ echo -e
 exit 0
 fi
 # Link Hosting Kalian
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/shadowsocks"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/shadowsocks"
 
 source /etc/os-release
 OS=$ID

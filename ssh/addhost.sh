@@ -27,7 +27,7 @@ exit 0
 fi
 clear
 read -rp "Domain/Host : " -e domain
-echo "IP=$domain" >>/var/lib/joyvpn/ipvps.conf
+echo "IP=$domain" >>/var/lib/bigipvpn/ipvps.conf
 echo $domain > /etc/xray/domain
 echo start
 systemctl stop xray.service

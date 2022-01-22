@@ -28,7 +28,7 @@ fi
 clear
 echo start
 sleep 0.5
-source /var/lib/joyvpn/ipvps.conf
+source /var/lib/bigipvpn/ipvps.conf
 domain=$IP
 systemctl enable xray.service
 /root/.acme.sh/acme.sh --issue -d $domain --standalone -k ec-256

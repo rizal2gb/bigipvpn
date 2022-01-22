@@ -28,13 +28,13 @@ fi
 clear
 # Load params
 source /etc/wireguard/params
-source /var/lib/joyvpn/ipvps.conf
+source /var/lib/bigipvpn/ipvps.conf
 if [[ "$IP" = "" ]]; then
 SERVER_PUB_IP=$(wget -qO- ipinfo.io/ip);
 else
 SERVER_PUB_IP=$IP
 fi
-source /var/lib/joyvpn/ipvps.conf
+source /var/lib/bigipvpn/ipvps.conf
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else

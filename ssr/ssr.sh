@@ -26,7 +26,7 @@ echo -e
 exit 0
 fi
 # Link Hosting Kalian
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssr"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssr"
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH

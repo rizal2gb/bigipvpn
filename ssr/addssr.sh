@@ -34,7 +34,7 @@ echo ""
 echo -e "Username ${RED}${ssr_user}${NC} Already On VPS Please Choose Another"
 exit 1
 fi
-source /var/lib/joyvpn/ipvps.conf
+source /var/lib/bigipvpn/ipvps.conf
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else

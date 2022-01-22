@@ -25,7 +25,7 @@ echo -e
 echo -e 
 exit 0
 fi
-source /var/lib/joyvpn/ipvps.conf
+source /var/lib/bigipvpn/ipvps.conf
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else

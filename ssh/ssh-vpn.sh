@@ -28,16 +28,16 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssh"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/ssh"
 
 # Link Hosting Kalian Untuk Xray
-bigipvpnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/xray"
+bigipvpnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-bigipvpnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/trojango"
+bigipvpnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-bigipvpnnnn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/stunnel5"
+bigipvpnnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -51,10 +51,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=joyvpn
-organizationalunit=joyvpn
-commonname=joyvpn
-email=kibocelcom@gmail.com
+organization=bigipvpn
+organizationalunit=bigipvpn
+commonname=bigipvpn
+email=bigipvpn@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${bigipvpn}/password"

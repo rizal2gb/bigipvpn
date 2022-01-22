@@ -26,7 +26,7 @@ echo -e
 exit 0
 fi
 # Link Hosting Kalian
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/backup"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/backup"
 
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
@@ -48,9 +48,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user kibocelcom@gmail.com
-from kibocelcom@gmail.com
-password joysmark
+user bigipvpn@gmail.com
+from bigipvpn@gmail.com
+password password
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc

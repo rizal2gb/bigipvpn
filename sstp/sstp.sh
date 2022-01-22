@@ -26,7 +26,7 @@ echo -e
 exit 0
 fi
 # Link Hosting Kalian
-bigipvpn="https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/sstp"
+bigipvpn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/sstp"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 MYIP2="s/xxxxxxxxx/$MYIP/g";
@@ -49,15 +49,15 @@ fi
 fi
 mkdir /home/sstp
 touch /home/sstp/sstp_account
-touch /var/lib/joyvpn/data-user-sstp
+touch /var/lib/bigipvpn/data-user-sstp
 #detail nama perusahaan
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=joyvpn
-organizationalunit=joyvpn
-commonname=joyvpn
-email=kibocelcom@gmail.com
+organization=bigipvpn
+organizationalunit=bigipvpn
+commonname=bigipvpn
+email=bigipvpn@gmail.com
 
 #install sstp
 apt-get install -y build-essential cmake gcc linux-headers-`uname -r` git libpcre3-dev libssl-dev liblua5.1-0-dev ppp

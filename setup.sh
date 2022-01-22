@@ -60,8 +60,8 @@ if [ -f "/etc/xray/domain" ]; then
 echo "Script Already Installed"
 exit 0
 fi
-mkdir /var/lib/joyvpn;
-echo "IP=" >> /var/lib/joyvpn/ipvps.conf
+mkdir /var/lib/bigipvpn;
+echo "IP=" >> /var/lib/bigipvpn/ipvps.conf
 wget https://${bigipvpn}/cf.sh && chmod +x cf.sh && ./cf.sh
 #install ssh ovpn
 wget https://${bigipvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
