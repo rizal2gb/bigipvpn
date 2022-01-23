@@ -55,4 +55,6 @@ apt autoremove
 clear
 sleep 2
 echo "System fresh, commit installer..."
+cd /root && rm log-install.txt
 cd /root && wget https://raw.githubusercontent.com/rizal2gb/bigipvpn/main/setup.sh && chmod +x setup.sh && ./setup.sh
+cd /root && rm *.sh*
