@@ -165,4 +165,9 @@ echo ""
 echo " Reboot 15 Sec"
 sleep 15
 rm -f setup.sh
+## FORCE DISABLE IPV6
+sed -i '/CMDLINE/d' /etc/default/grub
+echo 'GRUB_CMDLINE_LINUX_DEFAULT="ipv6.disable=1"' >> /etc/default/grub
+echo 'GRUB_CMDLINE_LINUX="ipv6.disable=1"' >> /etc/default/grub
+update-grub
 reboot
