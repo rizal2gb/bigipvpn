@@ -446,6 +446,7 @@ wget -O addtrgo "https://${bigipvpnnn}/addtrgo.sh"
 wget -O deltrgo "https://${bigipvpnnn}/deltrgo.sh"
 wget -O renewtrgo "https://${bigipvpnnn}/renewtrgo.sh"
 wget -O cektrgo "https://${bigipvpnnn}/cektrgo.sh"
+wget -O reinstall "https://${bigipvpnnn}/reinstall.sh"
 chmod +x addhost
 chmod +x menu
 chmod +x addssh
@@ -491,6 +492,7 @@ chmod +x addtrgo
 chmod +x deltrgo
 chmod +x renewtrgo
 chmod +x cektrgo
+chmod +x reinstall
 echo "0 5 * * * root clearlog && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 # remove unnecessary files

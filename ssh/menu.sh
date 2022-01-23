@@ -106,9 +106,10 @@ echo -e "$yy 57$y.Reboot VPS"
 echo -e "$yy 58$y.Speedtest VPS"
 echo -e "$yy 59$y.Displaying System Information"
 echo -e "$yy 60$y.Info Script Auto Install"
+echo -e "$yy 61$y.Trouble?? Go Reinstall..."
 echo -e "$y-------------------------------------------------------------$wh"
 echo -e ""
-read -p "Select From Options [ 1 - 60 ] : " menu
+read -p "Select From Options [ 1 - 61 ] : " menu
 echo -e ""
 case $menu in
 1)
@@ -290,6 +291,9 @@ info
 ;;
 60)
 about
+;;
+61)
+reinstall
 ;;
 *)
 clear
