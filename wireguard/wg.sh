@@ -19,7 +19,6 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 IZIN="skipped"
-ANU=$(ip -o $ANU -4 route show to default | awk '{print $5}');
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else

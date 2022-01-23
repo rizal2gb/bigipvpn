@@ -43,7 +43,6 @@ bigipvpnnnn="raw.githubusercontent.com/rizal2gb/bigipvpn/main/stunnel5"
 export DEBIAN_FRONTEND=noninteractive
 MYIP=$(wget -qO- ipinfo.io/ip);
 MYIP2="s/xxxxxxxxx/$MYIP/g";
-ANU=$(ip -o $ANU -4 route show to default | awk '{print $5}');
 NET=$(ip -o $ANU -4 route show to default | awk '{print $5}');
 source /etc/os-release
 ver=$VERSION_ID
