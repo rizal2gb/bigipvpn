@@ -2,8 +2,8 @@
 rm -rf /etc/xray/domain
 rm -rf /etc/xray
 systemctl stop ssrmu
-systemctl stop ws-tls
-systemctl stop ws-nontls
+systemctl stop websocket
+systemctl stop ws-ovpn
 systemctl stop xray.service
 systemctl stop shadowsocks-libev
 systemctl stop xl2tpd
@@ -29,6 +29,24 @@ systemctl stop trojan-go
 pkill openvpn
 pkill python
 pkill screen
+apt remove shadowsocks-libev -y
+apt remove simple-obfs -y
+apt remove openvpn -y
+apt remove -y wireguard
+apt remove -y wireguard-tools
+apt -y remove dropbear
+apt -y remove squid3
+apt -y remove nginx php php-fpm php-cli php-mysql libxml-parser-perl
+apt -y remove dropbear
+apt -y remove squid3
+apt -y remove sslh
+apt -y remove vnstat
+apt -y remove libsqlite3-dev
+apt -y remove fail2ban
+apt -y remove chrony
+rm -rf /etc/default/dropbear
+rm -rf /var/lib/dpkg/info/dropbear*
+apt autoremove
 sleep 2
 clear
 echo "System fresh, commit installer..."
